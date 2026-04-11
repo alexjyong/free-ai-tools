@@ -1776,5 +1776,3 @@ MIT © [ShaikhWarsi](https://github.com/ShaikhWarsi)
 ---
 
 *Last updated: April 11, 2026 • PRs/issues welcome*
-
-**Languages:** [Español](README-es.md) • [Português](README-pt-BR.md) • [中文](README-zh.md) • [Français](README-fr.md) • [日本語](README-ja.md) • [हिन्दी](README-hi.md) • [Deutsch](README-de.md)
