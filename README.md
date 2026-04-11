@@ -1,4 +1,4 @@
-# Awesome Free AI Tools
+# Free AI Tools
 
 ![Stars](https://img.shields.io/github/stars/ShaikhWarsi/free-ai-tools?style=social)
 ![Last Updated](https://img.shields.io/badge/updated-April%2011%2C%202026-brightgreen)
@@ -1753,6 +1753,13 @@ No affiliation with any vendor. All trademarks belong to their owners. Informati
 - [mnfst/awesome-free-llm-apis](https://github.com/mnfst/awesome-free-llm-apis) (2.1k ⭐) - Permanent free LLM API tiers
 - [inmve/free-ai-coding](https://github.com/inmve/free-ai-coding) (648 ⭐) - Pro-grade AI coding tools comparison
 - [Coding with AI](https://coding-with-ai.dev/) - Practical techniques for coding with LLMs
+
+### Research Methodology
+
+This list was compiled and verified using:
+- **Gemini** - For research and discovering new/additional AI tools
+- **Perplexity** - For verifying information accuracy and checking if data is current
+- **Community repos** - All referenced repositories above were used as reference sources
 
 ---
 
