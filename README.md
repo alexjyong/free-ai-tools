@@ -147,6 +147,13 @@ If this repo helped you build something or saved you money:
 | [GitHub Copilot](#github-copilot) | GPT-4.1, Claude Opus | 50 chat + 2K completions/month | No |
 | [Jules](#jules) | Gemini 2.5 Pro | 15 tasks/day | No |
 | [AWS Kiro](#aws-kiro) | Claude 4 Sonnet | 50 credits/month | No |
+| [OpenCode](#opencode) | 300+ models via OpenRouter | Zen Free tier | No |
+| [ForgeCode](#forgecode) | 300+ models via OpenRouter | 10K tokens/day | No |
+| [Amazon Q Developer](#amazon-q-developer) | Claude Sonnet 4 | 50 agentic req/month | Required |
+| [CLIO](#clio) | Bring your own keys | Unlimited (BYOK) | No |
+| [RooCode](#roocode) | Bring your own keys | Unlimited (BYOK) | No |
+| [Goose](#goose) | Bring your own keys | Unlimited (BYOK) | No |
+| [OhMyPi](#ohmypi) | Bring your own keys | Unlimited (BYOK) | No |
 
 ### What Qualifies as "Pro-Grade"?
 
@@ -563,6 +570,18 @@ Full-featured integrated development environments with built-in AI assistance.
 
 ---
 
+#### [RooCode](https://github.com/RooCodeInc/Roo-Code)
+
+**Models:** Bring your own API keys (any provider)
+- Open-source AI-powered coding assistant for VS Code
+- Whole dev team of AI agents in your editor
+- No subscription required - pay-as-you-go with your own keys
+- Custom modes for different coding tasks
+
+**[GitHub](https://github.com/RooCodeInc/Roo-Code)** | **[Website](https://roocode.com)**
+
+---
+
 ### IDEs with Basic Models
 
 #### [Codeium](https://codeium.com/)
@@ -799,19 +818,6 @@ Command-line tools for AI-assisted coding in your terminal.
 
 ---
 
-#### [Kilo Code](https://kilocode.ai/)
-
-**Models:** Claude Opus/Sonnet, Gemini 2.5 Pro, GPT-4.1
-- Up to $25 signup credits (one-time bonus)
-- Open source VS Code extension
-- Pay-as-you-go with no markup on model pricing
-- Credit card required to claim full bonus credits
-- Supports bringing your own API keys
-
-**[GitHub](https://github.com/Kilo-Org/kilocode)** | **[Documentation](https://kilocode.ai/docs/)** | **[Pricing](https://kilocode.ai/pricing)**
-
----
-
 #### [Amazon Q Developer](https://aws.amazon.com/q/developer/)
 
 **Model:** Claude Sonnet 4 (AWS-hosted)
@@ -824,6 +830,99 @@ Command-line tools for AI-assisted coding in your terminal.
 - Usage may be adjusted based on regional factors and usage patterns
 
 **[Pricing](https://aws.amazon.com/q/developer/pricing/)**
+
+---
+
+#### [OpenCode](https://github.com/anomalyco/opencode)
+
+**Models:** 300+ via OpenRouter (Claude, GPT, DeepSeek, Gemini, Grok, etc.)
+- Open-source AI coding agent (Go-based CLI)
+- Zen Free tier with 8 exclusive models (Big Pickle, MiniMax M2.5 Free, MiMo V2)
+- Privacy-sensitive: no code/context stored
+- `opencode run --dangerously-skip-perm` for quick execution
+
+**[GitHub](https://github.com/anomalyco/opencode)** | **[Website](https://opencode.ai)**
+
+---
+
+#### [ForgeCode](https://github.com/antinomyhq/forgecode)
+
+**Models:** 300+ models via OpenRouter (Claude, GPT, O Series, Grok, DeepSeek, Gemini)
+- AI-enabled pair programmer (Rust-based, Apache 2.0)
+- Model-agnostic agent harness
+- Semantic codebase search via `:sync`
+- 10K tokens/day free tier
+
+**[GitHub](https://github.com/antinomyhq/forgecode)** | **[Website](https://forgecode.dev)**
+
+---
+
+#### [CLIO](https://github.com/SyntheticAutonomicMind/CLIO)
+
+**Models:** GitHub Copilot, OpenAI, Gemini, DeepSeek, OpenRouter, MiniMax, llama.cpp, LM Studio, SAM
+- Terminal-first AI code assistant (Perl-based)
+- ~50 MB at startup, runs on anything from Raspberry Pi to M4 Mac
+- Actually autonomous: reads, writes, tests, commits, iterates
+- Privacy-first: secret redaction, minimum context sent to AI
+- Multi-agent coordination with file locks and git locks
+- Remote execution via SSH across your entire fleet
+- Persistent sessions with long-term memory
+- MCP (Model Context Protocol) support
+
+**[GitHub](https://github.com/SyntheticAutonomicMind/CLIO)**
+
+---
+
+#### [OhMyPi](https://github.com/can1357/oh-my-pi)
+
+**Models:** Bring your own keys (any provider)
+- AI coding agent for the terminal (Zig-powered)
+- Hash-anchored edits, optimized tool harness
+- LSP integration, Python support, browser automation
+- Subagents with coordinated API rate limiting
+- Multiplexer integration (tmux, GNU Screen, Zellij)
+- Interrupt anytime workflow
+
+**[GitHub](https://github.com/can1357/oh-my-pi)**
+
+---
+
+#### [Goose](https://github.com/block/goose)
+
+**Models:** Any LLM (Claude, GPT, DeepSeek, etc.)
+- Open-source extensible AI agent from Block (now AAIF/Linux Foundation)
+- Desktop app, CLI, and API
+- Active engineering tasks (not just code suggestions)
+- Built for code, workflows, and automation
+- Model-agnostic architecture
+
+**[GitHub](https://github.com/block/goose)** | **[Website](https://block.github.io/goose/)**
+
+---
+
+#### [Kilo Code](https://kilocode.ai/)
+
+**Models:** Bring your own API keys (Claude, Gemini, GPT, etc.)
+- Up to $25 signup credits (one-time bonus)
+- Open source VS Code extension
+- Pay-as-you-go with no markup on model pricing
+- Credit card required to claim full bonus credits
+- Full BYOK support
+
+**[GitHub](https://github.com/Kilo-Org/kilocode)** | **[Documentation](https://kilocode.ai/docs/)** | **[Pricing](https://kilocode.ai/pricing)**
+
+---
+
+#### [RooCode](https://github.com/RooCodeInc/Roo-Code)
+
+**Models:** Bring your own API keys (any provider)
+- Open-source AI-powered coding assistant for VS Code
+- Whole dev team of AI agents in your editor
+- No subscription required - pay-as-you-go with your own keys
+- Custom modes for different coding tasks
+- Previously known as Roo Cline
+
+**[GitHub](https://github.com/RooCodeInc/Roo-Code)** | **[Website](https://roocode.com)**
 
 ---
 
@@ -858,11 +957,41 @@ Command-line tools for AI-assisted coding in your terminal.
 
 ---
 
+#### [QuantFlow Pilot](https://github.com/qf-studio/pilot)
+
+**Models:** Uses Claude Code for implementation
+- Autonomous AI development pipeline — #1 Terminal Benchmark 2.0
+- Turns GitHub issues into pull requests automatically
+- Label an issue "pilot" → Pilot claims it → Creates branch → Plans → Implements → Quality gates → Opens PR
+- Telegram bot integration available
+- Desktop app available
+- **Install:** `brew install qf-studio/tap/pilot` or `go install github.com/qf-studio/pilot@latest`
+
+**[GitHub](https://github.com/qf-studio/pilot)** | **[Website](https://pilot.quantflow.studio/)**
+
+---
+
+#### [MemoryPalace](https://github.com/milla-jovovich/mempalace)
+
+**Models:** Works with any LLM (Claude, ChatGPT, Cursor, Gemini, local models)
+- AI memory system with highest LongMemEval score ever (96.6%)
+- Uses ancient "memory palace" technique for AI conversations
+- Stores conversations in structured format: wings (people/projects), halls (memory types), rooms (specific ideas)
+- Raw verbatim storage without AI summarization
+- Three mining modes: projects (code/docs), convos (conversation exports), general (auto-classified)
+- MCP server with 19 tools for AI integration
+- Local, open, adaptable — runs entirely on your machine
+- **Install:** `pip install mempalace`
+
+**[GitHub](https://github.com/milla-jovovich/mempalace)** | **[Note from Milla](https://github.com/milla-jovovich/mempalace#readme)**
+
+---
+
 #### [Continue.dev](https://www.continue.dev/)
 
-**Models:** 200+ models via BYO API keys, local models via Ollama/LM Studio
+**Models:** Bring your own API keys (200+ models supported)
 - Free VS Code and JetBrains extension
-- Full support for local models
+- Full support for local models via Ollama/LM Studio
 - Solo tier: Private/team/public visibility options
 - Community hub for custom AI assistants
 - No vendor lock-in or usage limits for local models
@@ -1081,6 +1210,7 @@ Visual orchestration tools for building autonomous AI agents without coding.
 | [Relay.app](https://relay.app) | Generous free plan | Beginners | Simple agentic workflows |
 | [Activepieces](https://activepieces.com) | 1,000 tasks/month | Open-source | Flat pricing, self-hostable |
 | [Podium](https://podium.com) | Entry-level tiers | Sales/communication | 24/7 lead response AI agents |
+| [QuantFlow Pilot](https://github.com/qf-studio/pilot) | Free | Autonomous development | #1 Terminal Benchmark 2.0 — AI that ships your tickets |
 
 ---
 
@@ -1130,6 +1260,7 @@ Professional-grade content creation with generous free tiers.
 | [Humata](https://humata.ai) | PDF Analysis | 60 pages/month | Clickable source citations |
 | [QuillBot](https://quillbot.com) | Rewriting | 125 words/time | Fluency & Standard modes |
 | [DeepL](https://deepl.com) | Translation | Basic Free | Incognito sensitive mode |
+| [MemoryPalace](https://github.com/milla-jovovich/mempalace) | AI Memory | Free, open source | 96.6% LongMemEval — memory palace technique for AI |
 
 ---
 
@@ -1175,6 +1306,9 @@ Professional-grade content creation with generous free tiers.
 | [ComfyUI](https://comfyui.org) | Image Generation | Node-based interface for Stable Diffusion |
 | [Zed](https://zed.dev) | AI IDE | 50 AI prompts/month, native performance, high speed |
 | [Void IDE](https://voideditor.com/) | Agent-first IDE | Multi-agent frontend/backend/testing | Preview, free tier |
+| [SAM](https://github.com/SyntheticAutonomicMind/SAM) | macOS AI Assistant | Native Swift AI assistant, local models, privacy-first | Free, open source |
+| [ALICE](https://github.com/SyntheticAutonomicMind/ALICE) | Local Image Generation | Stable Diffusion service for private image generation | Free, local GPU |
+| [MemoryPalace](https://github.com/milla-jovovich/mempalace) | AI Memory System | 96.6% LongMemEval — memory palace technique for AI conversations | Free, open source |
 
 ---
 
