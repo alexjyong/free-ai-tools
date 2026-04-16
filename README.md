@@ -63,7 +63,7 @@ If this repo helped you build something or saved you money:
 
 **2026-04-12**
 - ✨ added a website for easy navigation
-- 
+---
 **2026-04-11**
 - ✨ Initial release
 ---
