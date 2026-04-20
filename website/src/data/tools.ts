@@ -1395,7 +1395,7 @@ export const tools: Tool[] = [
     openSource: true,
     features: ["Local generation", "No API keys", "Easy UI", "Image editing", "Batch processing"],
     pros: ["Very easy setup", "Open source", "Free forever", "Privacy guaranteed", "Complete control"],
-    cons: ["Last updated August 2024", "Requires GPU"],
+    cons: ["Last updated August 2024", "Requires GPU", "MacOS support only"],
     useCases: ["Local image generation", "Privacy-focused", "No API costs", "Beginners", "Offline work"],
     featured: true,
   },
